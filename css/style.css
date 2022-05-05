@@ -1,0 +1,266 @@
+ @import url('https://fonts.googleapis.com/css2?family=poppins'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+.active
+{
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+body,html
+{
+    overflow-x: hidden;
+}
+/* navbar */
+.navbar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: red;
+}
+.nav-link
+{
+display: flex;
+align-items: center;
+}
+.nav-link li
+{
+    margin: 0 30px;
+}
+header
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dHJla2tpbmd8ZW58MHx8MHx8&w=1000&q=80);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content
+{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2
+{
+    font-size: 4vmin;
+}
+.line
+{ 
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1 
+{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn
+{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+/* Events */
+section
+{
+    width: 80%;
+    margin: 80px auto;
+}
+.title
+{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(73, 73, 73);
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.row .col 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events{
+    width: 100%;
+}
+.events.row
+{
+    margin-top: 50px;
+}
+h4
+{
+    font-size: 3vmin;
+    color: #49497e;
+    margin: 20px auto;
+}
+p
+{
+    color: #7c7c7c;
+    padding: 0px 40px;
+}
+.events.ctn
+{
+    margin-top: 30px;
+}
+.explore
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,q_auto/v1/filestore/0iqxzvzced5u1gyr7lc1b1oembwe_image%20%281%29.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content 
+{
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1
+ {
+font-size: 7vmin;
+}
+.explore-content .line{
+
+    margin-bottom: 50px;
+}
+.explore-content p{
+    color: rgb(255, 255, 255);
+}
+.explore-content .ctn
+{
+margin-top: 40px;
+}
+.content-col
+{
+    width: 40%;
+}
+.image-col
+{
+    width: 60%;
+}
+.tours .image-gallery
+{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+align-items: center;
+}
+/* banner div start */
+.banner
+{
+    width: 80%;
+    margin: auto;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: row;
+}
+.banner-left
+{
+    width: 50%;
+}
+.banner-left-content
+{
+    width: 90%;
+    margin: 100px auto;
+    padding-bottom: 50px;
+}
+.cc{
+    margin-bottom: 20px;
+}
+.banner-left-content .btn2
+{
+    margin-left: 40%;
+    background-color: red;
+    padding: 10px 25px;
+    margin-top: 100px;
+}
+.banner-left-content a
+{
+    text-decoration: none;
+    color: white;
+
+    /* padding: 10px 25px; */
+}
+.banner-right
+{
+    width: 50%;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.banner-right1
+{
+    /* border: 2px solid green; */
+    /* height: 200px; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+/* banner div end */
+
+.footer
+{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #49497e;
+    text-align: center;
+}
+.footer p
+{
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+/* .container{
+    border: 2px solid red;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+} */
+/* section
+{
+    display: flex;
+} */
